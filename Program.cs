@@ -15,8 +15,8 @@ namespace DecimalToHexadecimal
 
             int numero = PedirNumero();
 
-            Console.WriteLine(DecToHex(numero, hexDigitos));
-
+            Console.WriteLine($"{numero} en hexadecimal: #{DecToHex(numero, hexDigitos)}");
+            Console.ReadKey();
         }
 
         static int PedirNumero()
