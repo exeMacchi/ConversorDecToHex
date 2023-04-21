@@ -42,7 +42,7 @@ namespace DecimalToHexadecimal
         {
             int resto = cociente % 16;
 
-            if (cociente <= 16)
+            if (cociente < 16)
             {
                 return hexDigitos[cociente].ToString();
             }
